@@ -25,8 +25,8 @@ from sailor.policies.diffusion_base_policy import DiffusionBasePolicy
 from sailor.sailor_trainer import SAILORTrainer
 
 # Force EGL rendering in environments
-os.environ["MUJOCO_GL"] = "egl"
-os.environ["PYOPENGL_PLATFORM"] = "egl"
+os.environ["MUJOCO_GL"] = "osmesa"
+os.environ["PYOPENGL_PLATFORM"] = "osmesa"
 
 
 def train_eval(config):

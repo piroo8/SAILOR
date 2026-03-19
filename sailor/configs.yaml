@@ -12,7 +12,7 @@ defaults:
   precision: 32
 
   # Wandb configs
-  use_wandb: True
+  use_wandb: False
   wandb_entity: 'scaling-rl' # Top level name
   wandb_project: null
   wandb_exp_name: null
